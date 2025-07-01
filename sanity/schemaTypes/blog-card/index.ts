@@ -14,6 +14,11 @@ export const blogCardType = defineType({
       type: "image",
     }),
     defineField({
+      name: "heroImage",
+      type: "image",
+    }),
+
+    defineField({
       name: "body",
       type: "string",
     }),
