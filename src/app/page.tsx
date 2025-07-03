@@ -22,7 +22,7 @@ export default function Page() {
 
   return (
     <div>
-      <h1>Latest Posts</h1>
+      <h1>Latest Posts here </h1>
 
       <ul style={{ paddingTop: "50px" }}>
         {posts.map((post) => (
